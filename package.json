@@ -1,0 +1,19 @@
+{
+  "name": "twitter-elastic",
+  "version": "1.0.0",
+  "description": "Dois scripts que baixam e indexam tweets",
+  "main": "index.js",
+  "scripts": {
+    "dump": "dump-tweets.js",
+    "index": "index-tweets.js"
+  },
+  "author": "Victor Hogemann",
+  "license": "ISC",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/elasticsearch": "^5.0.30",
+    "axios": "^0.18.0",
+    "elasticsearch": "^15.3.1",
+    "moment": "^2.24.0"
+  }
+}
